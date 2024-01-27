@@ -1,0 +1,54 @@
+#myDiv {
+  border: 2px solid lightgrey;
+  width: 400px; /* Adjusted width */
+  min-height: 100px;
+  margin: 10px auto;
+  background-color: rgb(242, 236, 197);
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+  border: 2px solid grey;
+  width: 300px;
+  min-height: 30px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.numbersButton,
+.operationsButton,
+.otherButtons,
+.firstRow {
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(155, 135, 78);
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.numbersButton:hover,
+.operationsButton:hover,
+.otherButtons:hover,
+.firstRow:hover {
+  background-color: rgb(146, 206, 163);
+}
